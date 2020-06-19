@@ -1,0 +1,60 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="DarkTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Dark theme -->
+        <item name="colorPrimary">@color/darkColorPrimary</item>
+        <item name="colorPrimaryDark">@color/darkColorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="fontFamily">@font/roboto</item>
+        <item name="listBackground">@color/darkListBackground</item>
+        <item name="cardBackground">@color/darkCardBackground</item>
+        <item name="textColor">@color/darkCardTitle</item>
+        <item name="actionBarBackgroundColor">@color/darkColorPrimary</item>
+        <item name="actionBarTextColor">@color/darkCardTitle</item>
+        <item name="dialogTextColor">@color/darkDialogTitle</item>
+        <item name="dialogDateColor">@color/dialogDateColor</item>
+        <item name="listEmptyTextColor">@color/darkListEmptyTextColor</item>
+        <item name="alertDialogTheme">@style/DarkDateAlertDialog</item>
+        <item name="android:datePickerDialogTheme">@style/DarkDateAlertDialog</item>
+        <item name="android:windowAnimationStyle">@style/WindowAnimationTransition</item>
+    </style>
+
+    <!-- Light theme -->
+    <style name="LightTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/lightColorPrimary</item>
+        <item name="colorPrimaryDark">@color/lightColorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="fontFamily">@font/roboto</item>
+        <item name="listBackground">@color/lightListBackground</item>
+        <item name="cardBackground">@color/lightCardBackground</item>
+        <item name="textColor">@color/lightCardTitle</item>
+        <item name="actionBarBackgroundColor">@color/lightColorPrimary</item>
+        <item name="actionBarTextColor">#ffffff</item>
+        <item name="dialogTextColor">@color/lightDialogTitle</item>
+        <item name="dialogDateColor">@color/dialogDateColor</item>
+        <item name="listEmptyTextColor">@color/lightListEmptyTextColor</item>
+        <item name="alertDialogTheme">@style/LightDateAlertDialog</item>
+        <item name="android:windowAnimationStyle">@style/WindowAnimationTransition</item>
+    </style>
+
+    <!-- Windows transition -->
+    <style name="WindowAnimationTransition">
+        <item name="android:windowEnterAnimation">@android:anim/fade_in</item>
+        <item name="android:windowExitAnimation">@android:anim/fade_out</item>
+    </style>
+
+    <style name="DarkDateAlertDialog" parent="Theme.MaterialComponents.DayNight.Dialog.Alert">
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:background">@color/darkColorPrimary</item>
+        <item name="android:textColor">@color/lightCardTitle</item>
+    </style>
+
+    <style name="LightDateAlertDialog" parent="Theme.MaterialComponents.Light.Dialog.Alert">
+        <item name="colorPrimary">@color/lightColorPrimary</item>
+        <item name="colorPrimaryDark">@color/lightColorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+
+</resources>

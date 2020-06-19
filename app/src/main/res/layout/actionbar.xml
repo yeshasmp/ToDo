@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/actionBarBackgroundColor"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/actionBarTitle"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:textColor="?attr/actionBarTextColor"
+        android:textSize="24sp" />
+
+    <ToggleButton
+        android:id="@+id/themeActionButton"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@drawable/button_day_night"
+        android:checked="false"
+        android:layout_centerVertical="true"
+        android:layout_alignParentEnd="true"
+        android:text=""
+        android:textOff=""
+        android:textOn=""
+         />
+
+
+</RelativeLayout>

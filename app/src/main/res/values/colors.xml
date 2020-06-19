@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="darkColorPrimary">#1F1F1F</color>
+    <color name="darkColorPrimaryDark">#000000</color>
+    <color name="darkCardBackground">#1F1F1F</color>
+    <color name="darkColorDate">#9e9e9e</color>
+    <color name="darkListBackground">#000000</color>
+    <color name="darkCardTitle">#ffffff</color>
+    <color name="darkDialogTitle">#ffffff</color>
+    <color name="darkListEmptyTextColor">#ffffff</color>
+
+    <color name="lightColorPrimary">#ff1744</color>
+    <color name="lightColorPrimaryDark">#c4001d</color>
+    <color name="lightCardBackground">#ff1744</color>
+    <color name="lightListBackground">#ffffff</color>
+    <color name="lightCardTitle">#ffffff</color>
+    <color name="lightDialogTitle">#000000</color>
+    <color name="lightListEmptyTextColor">#000000</color>
+
+
+    <color name="colorAccent">#ff1744</color>
+    <color name="dialogDateColor">#9e9e9e</color>
+
+</resources>
