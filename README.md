@@ -16,6 +16,7 @@ ToDo is an open source app created to provide minimalistic and intuitive experie
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
 ## License
 MIT License
 
@@ -41,4 +42,6 @@ SOFTWARE.
 
 ## Credits
 
-Thanks to [License: @rizwanrasool/LottieFiles](https://lottiefiles.com/rizwanrasool) for his Empty list animation.
+* Thanks to [License: @rizwanrasool/LottieFiles](https://lottiefiles.com/rizwanrasool) for his Empty list animation.
+* [Android Documentation](https://developer.android.com/docs)
+
