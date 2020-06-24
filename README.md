@@ -3,6 +3,11 @@
 
 ToDo is an open source app created to provide minimalistic and intuitive experience for creating quick notes, memos and reminders.
 
+## Download
+
+![Release v1.0](https://img.shields.io/badge/Release-v1.0-brightgreen.svg)<br>
+APK Download - https://github.com/yeshasprabhakar/ToDo/releases/tag/v1.0
+
 ## Installation
 
 1. Clone or download the repo :arrow_down:
