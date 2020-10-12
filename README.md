@@ -23,7 +23,7 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 ## License
 MIT License
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/yeshasprabhakar/ToDo/blob/master/LICENSE.md)
 
 
 ## Credits
